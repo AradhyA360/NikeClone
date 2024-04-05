@@ -31,3 +31,4 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
 };
 
 export default ShoeCard;
+// ShoeCard Done
