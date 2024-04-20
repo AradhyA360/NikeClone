@@ -1,3 +1,4 @@
+import { arrowRight } from "../assets/icons";
 import { shoe8 } from "../assets/images";
 import Button from "../components/Button";
 
@@ -23,8 +24,8 @@ const SuperQuality = () => {
           carefully select premium materials, apply rigorous testing, and ensure
           that our products meet the highest standards of quality.
         </p>
-        <div className="mt-11">
-          <Button label="View Details" />
+        <div className="mt-11 ">
+          <Button label="Shop Now!" iconURL={arrowRight} />
         </div>
       </div>
 
@@ -34,7 +35,7 @@ const SuperQuality = () => {
           alt="shoe8"
           width={570}
           height={522}
-          className="object-container"
+          className="object-contain"
         />
       </div>
     </section>
